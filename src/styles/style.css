@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.navbar-wrapper {
+    background: #fff7c9;
+    padding: 5px;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: sans-serif;
+}
