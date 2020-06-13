@@ -30,10 +30,10 @@ const NotesPage = () => {
   }, []);
 
   useEffect(() => {
-    fetchTodos()
+    fetchNotes()
   }, [isUserLoggedIn])
 
-  const fetchTodos = async () => {
+  const fetchNotes = async () => {
     setLoading(true);
     try {
       const notesData = await API.graphql(graphqlOperation(listNotes))
